@@ -14,4 +14,8 @@
 ```
 ## Interface🎞
 
-<img src = "Net1.PNG" width = 400>
+<img src = "Net1.PNG" width = 350>
+
+> Getting details
+
+<img src = "Net2.PNG" width = 350>
