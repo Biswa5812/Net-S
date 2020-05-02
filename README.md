@@ -5,10 +5,13 @@
 
 ## Dependencies🛠
 
-> For the program to work efficiently you need to install the following dependencies
+> For the program to work efficiently you need to install the following dependencies:
 
 ``` 
   pip install speedtest-cli
   pip install PyQt5
   
 ```
+## Interface🎞
+
+<img src = "Net1.PNG" width = 400>
