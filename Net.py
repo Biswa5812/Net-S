@@ -9,6 +9,7 @@
 
 from PyQt5 import QtCore, QtGui, QtWidgets
 import speedtest as st
+from pythonping import ping
 import time
 
 
@@ -74,8 +75,10 @@ class Ui_NetS(object):
         QtWidgets.QApplication.processEvents()
 
         speed = st.Speedtest()
-
-        ping = speed.results.ping
+        
+        response_list = ping('8.8.8.8', size=40, count=10)
+        pin = response_list.rtt_avg_ms
+        
         download = speed.download()
         upload = speed.upload()
 
@@ -84,7 +87,7 @@ class Ui_NetS(object):
 
         self.label_2.setText("Upload Speed = " + str(us) + "Mbps")
         self.label_3.setText("Download Speed = " + str(ds) + "Mbps")
-        self.label_4.setText("PING = " + str(ping) + "ms")
+        self.label_4.setText("PING = " + str(pin) + "ms")
 
         
         
