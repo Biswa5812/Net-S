@@ -12,6 +12,12 @@
   pip install PyQt5
   pip install pythonping
 ```
+
+## Download 🔗
+
+> Download the first built and get going!!!
+> https://github.com/Biswa5812/Net-S/releases/download/V-0.1/Net.exe
+
 ## Interface🎞
 
 <img src = "Net1.PNG" width = 350>
