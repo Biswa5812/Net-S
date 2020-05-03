@@ -10,7 +10,7 @@
 ``` 
   pip install speedtest-cli
   pip install PyQt5
-  
+  pip install pythonping
 ```
 ## Interface🎞
 
